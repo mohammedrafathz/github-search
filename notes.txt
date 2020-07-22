@@ -10,3 +10,7 @@ EKART
     -> create seperate folder merge the changes
     -> git branch
 git add .
+
+
+master -> ads
+coupons -> 
