@@ -24,17 +24,19 @@
             <ul class="navbar-nav mr-auto">
             </ul>
             <form class="form-inline my-2 my-lg-0" id="searchForm">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <input class="form-control mr-sm-2" type="search" name="profileName" placeholder="Search"
+                    aria-label="Search">
                 <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
             </form>
         </div>
     </nav>
-    <img src="./brad.jpg" alt="Profile Image" class="rounded-circle mx-auto d-block mt-5 border border-secondary">
+    <img src="./brad.jpg" alt="Profile Image" id="profileImage"
+        class="rounded-circle mx-auto d-block mt-5 border border-secondary">
     <div class="text-center">
-        <h3>Brad Traversy</h3>
-        <h6>Followers: <strong class="text-secondary">27727</strong> Following: <strong
-                class="text-secondary">6</strong></h6>
-        <h6>Location: <strong class="text-secondary"> Boston </strong> </h6>
+        <h3 id="username"></h3>
+        <h6>Followers: <strong id="followers" class="text-secondary">27727</strong> Following: <strong
+                class="text-secondary" id="following">6</strong></h6>
+        <h6>Location: <strong class="text-secondary" id="location"> Boston </strong> </h6>
     </div>
     <br>
     <!-- organiztion, bio, repos, gists, blog -->
@@ -47,33 +49,34 @@
         <br>
         <div class="card">
             <div class="card-body">
-                <h5>Organization: Traversy Media</h5>
+                <h5>Organization: <span id="organiztion">Traversy Media</span> </h5>
             </div>
         </div>
         <br>
         <div class="card">
             <div class="card-body">
-                <h5>Bio: Full stack web developer and online instructor, specializiing in mostly JS, but also write
-                    Python, PHP and some other stuff. </h5>
+                <h5>Bio: <span id="bio">Full stack web developer and online instructor, specializiing in mostly JS, but
+                        also write
+                        Python, PHP and some other stuff.</span> </h5>
             </div>
         </div>
         <br>
         <div class="card">
             <div class="card-body">
                 <h5>Repos:
-                    201</h5>
+                    <span id="repos">201</span> </h5>
             </div>
         </div>
         <br>
         <div class="card">
             <div class="card-body">
-                <h5>Gists: 37</h5>
+                <h5>Gists: <span id="gists">37</span> </h5>
             </div>
         </div>
         <br>
         <div class="card">
             <div class="card-body">
-                <h5>Blog: traversymedia.com</h5>
+                <h5>Blog: <span id="blog">traversymedia.com</span> </h5>
             </div>
         </div>
         <br>

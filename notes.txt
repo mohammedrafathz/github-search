@@ -1,0 +1,12 @@
+EKART
+    - Login or Register - Authentication module
+    - Roles Admin, Customer
+    - CART - add a product, make payemnt and purchase
+    - coupons - to get discounts - D1
+    - advertising new product - D2 D3
+    
+
+    -> direct develop in same code 
+    -> create seperate folder merge the changes
+    -> git branch
+git add .
