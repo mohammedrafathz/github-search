@@ -1,1 +1,1 @@
-console.log("ads file");
+console.log("advertising file");
